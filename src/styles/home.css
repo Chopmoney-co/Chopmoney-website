@@ -1,0 +1,21 @@
+.bgr {
+  background: url(../assets/icon3.svg) right 300px top 200px no-repeat,
+    url(../assets/icon2.svg) left 200px top 100px no-repeat;
+  background-size: 4rem;
+}
+.bgarrow {
+  background: url(../assets/icon4.svg) left 800px top 100px no-repeat;
+  background-size: 2rem;
+  animation: wiggle 2s linear infinite;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bgr {
+    background: none;
+    background-size: none;
+  }
+  .bgarrow {
+    background: none;
+    background-size: none;
+  }
+}
