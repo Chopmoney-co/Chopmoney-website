@@ -5,10 +5,7 @@
   .arrowright {
     right: 0;
   }
-  .inset-x-0 {
-    left: 0px;
-    right: unset;
-  }
+ 
   /* .arrowup{
     left: 0px;
     right: none;
