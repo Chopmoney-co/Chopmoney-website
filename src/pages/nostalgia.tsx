@@ -25,7 +25,7 @@ function Nostalgia() {
           <div className="absolute inset-x-0 top-10 h-16 ">
             <img className="mx-auto h-14" src={Logoblack} alt="" />
           </div>
-          <div className="absolute z-10 top-[35.6rem] sm:inset-y-0 left-4 sm:inset-y-auto w-20">
+          <div className="absolute top-auto bottom-0 left-4 sm:inset-y-auto w-20">
             <Link
               to="/about2"
               aria-label="Scroll Left"
