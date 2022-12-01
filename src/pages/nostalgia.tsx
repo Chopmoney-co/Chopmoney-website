@@ -53,7 +53,7 @@ function Nostalgia() {
               app that allows you to{" "}
               <span className="font-bold">
                 {" "}
-                stick to your budget by sending you only only a pre-selected amount, every day.
+                stick to your budget by sending you only a pre-selected amount, every day.
               </span>
             </p>
             <p className="my-2 sm:my-4 text-sm text-[#0D0D0D] 2xl:text-base">
