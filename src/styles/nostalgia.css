@@ -1,0 +1,12 @@
+@media only screen and (max-width: 376px) {
+    .logoblack {
+      display: none;
+    }
+    .arrowleft {
+      right: 0;
+    }
+  
+    .arrowup {
+      inset: unset unset unset 0px;
+    }
+  }
