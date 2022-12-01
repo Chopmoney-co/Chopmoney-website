@@ -1,0 +1,16 @@
+@media only screen and (max-width: 320px) {
+  .logoblack {
+    display: none;
+  }
+  .arrowright {
+    right: 0;
+  }
+  .inset-x-0 {
+    left: 0px;
+    right: unset;
+  }
+  /* .arrowup{
+    left: 0px;
+    right: none;
+  } */
+}

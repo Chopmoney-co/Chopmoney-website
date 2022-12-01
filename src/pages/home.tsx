@@ -33,7 +33,7 @@ function Home() {
               </h1>
               <p className="mt-6 mb-6 text-sm text-white 2xl:text-base">
                 Whether you’re a Big Spender or an Economic Guru, your money
-                makes it to Friday! We help you budget for rainy days.
+                makes it to Friday! Let's help you budget for rainy days.
               </p>
               <div className="flex flex-col flex-wrap justify-center">
                 <button className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#ECEC08] text-gray-900 hover:scale-110 duration-300 transform">

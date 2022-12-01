@@ -7,6 +7,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../styles/about.css"
 
 function Aboutleft() {
   useEffect(() => {
@@ -23,9 +24,9 @@ function Aboutleft() {
       <div className="bg-[#ECEC08] relative">
         <section className="h-[100vh] text-[#0D0D0D] flex items-center justify-center">
           <div className="absolute inset-x-0 top-10 h-16 ">
-            <img className="mx-auto h-14" src={Logoblack} alt="" />
+            <img className="mx-auto h-14 logoblack" src={Logoblack} alt="" />
           </div>
-          <div className="absolute z-10 top-auto bottom-0 right-4 sm:inset-y-auto w-20">
+          <div className="absolute z-10 top-auto bottom-0 right-4 sm:inset-y-auto w-20 arrowright">
             <Link
               to="/nostalgia"
               aria-label="Scroll Right"
@@ -69,7 +70,7 @@ function Aboutleft() {
                 <FaGooglePlay className="text-sm inline m-auto ml-4" />
               </button>
             </div>
-            <div className="absolute inset-x-0 bottom-0  h-16 sm:h-20">
+            <div className="absolute inset-x-0 bottom-0  h-16 sm:h-20 arrowup">
               <a
                 href="/"
                 aria-label="Scroll Up"
