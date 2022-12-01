@@ -45,7 +45,7 @@ function Home() {
                   <FaGooglePlay className="text-sm inline m-auto ml-4" />
                 </button>
               </div>
-              <div className="absolute inset-x-0 bottom-0 h-20">
+              <div className="absolute inset-x-0 bottom-0 h-16 sm:h-20">
                 <Link
                   to="/about1"
                   aria-label="Scroll down"
