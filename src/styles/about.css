@@ -2,12 +2,12 @@
   .logoblack {
     display: none;
   }
-  .arrowright {
+  .arrowleft {
     right: 0;
   }
 
-  .arrowup {
-    inset-inline-end: unset;
-    inset-inline-start: 0px;
+  .arrowups {
+    inset-inline-end: 0px;
+    inset-inline-start: unset;
   }
 }

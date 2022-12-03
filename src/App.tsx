@@ -2,23 +2,21 @@ import React from "react";
 import "./App.css";
 import Home from "./pages/home";
 import { Navigate, Route, Routes } from "react-router-dom";
+import Storytime from "./pages/storytime";
+import Storytimeleft from "./pages/storytimeleft";
 import About from "./pages/about";
-import Nostalgia from "./pages/nostalgia";
-import Aboutleft from "./pages/aboutleft";
-
 
 function App() {
   return (
     <div className="App">
-
       <Routes>
         {/* Main Routes */}
-        <Route path="/" >
+        <Route path="/">
           <Route index element={<Navigate replace to="home" />} />
           <Route path="home" element={<Home />} />
-          <Route path="about1" element={<About />} />
-          <Route path="about2" element={<Aboutleft />} />
-          <Route path="nostalgia" element={<Nostalgia />} />
+          <Route path="storytime" element={<Storytime />} />
+          <Route path="storytime2" element={<Storytimeleft />} />
+          <Route path="about" element={<About />} />
         </Route>
 
         {/* Not found */}
