@@ -28,7 +28,7 @@ function Storytimeleft() {
           </div>
           <div className="absolute z-10 top-auto bottom-0 right-4 sm:inset-y-auto w-20 arrowright">
             <Link
-              to="/nostalgia"
+              to="/about"
               aria-label="Scroll Right"
               className="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 duration-300 transform border border-[#0D0D0D] rounded-full hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 hover:shadow hover:scale-125"
             >
