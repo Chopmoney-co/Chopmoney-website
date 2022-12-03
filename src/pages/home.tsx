@@ -7,7 +7,6 @@ import { BsArrowDown } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/home.css";
-import Typewriter from "react-ts-typewriter";
 
 function Home() {
   useEffect(() => {
@@ -30,13 +29,8 @@ function Home() {
               </div>
               <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 2xl:p-0 xl:max-w-4xl">
                 <h1 className="text-4xl font-bold leading-none sm:text-6xl 2xl:text-8xl">
-                  
-                  <Typewriter
-                    speed={200}
-                    text={["Pay yourself anytime, any day!", "Everyday be Pay day!", "Pay yourself anytime, everyday!"]}
-                    loop={true}
-                    cursor={false}
-                  />
+                Pay yourself anytime, any day!
+                
                 </h1>
                 <p className="mt-6 mb-6 text-sm text-white 2xl:text-base">
                   Enjoy life while sticking to your budget with Chopmoney.

@@ -35,7 +35,7 @@ function Storytime() {
               <BsArrowRight className="text-[#0D0D0D]" />
             </Link>
             <span className="text-[0.6rem] text-[#0D0D0D] text-center">
-              Nostalgia awaits...
+           the big idea
             </span>
           </div>
           <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 2xl:p-0 xl:max-w-4xl">
