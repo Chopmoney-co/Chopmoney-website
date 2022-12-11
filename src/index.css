@@ -2,25 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "helvetica";
-  src: url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
-      format("woff"),
-    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
-      format("opentype"),
-    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf")
-      format("truetype");
-}
 
 @layer base {
   * {
-    @apply font-[helvetica];
+    @apply font-[Sora];
   }
 }
 
-*{
-    font-family: helvetica;
-}
+
 
 body {
   background-color: #0d0d0d;
