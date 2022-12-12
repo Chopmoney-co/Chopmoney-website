@@ -5,10 +5,20 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Storytime from "./pages/storytime";
 import Storytimeleft from "./pages/storytimeleft";
 import About from "./pages/about";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Chopmoney</title>
+        <meta
+          name="description"
+          content="chop money, budget, budgeting, money, finance, expenses, chopmoney, chopmoney app, sticking to your budget, stick to my budget, savings, financial planning, frugal, money management"
+        />
+        <link rel="canonical" href="http://chopmoney.co" />
+      </Helmet>
       <Routes>
         {/* Main Routes */}
         <Route path="/">
