@@ -119,17 +119,21 @@ function Home() {
           </div>
         </div>
         <a
-          className="fixed text-white bg-[#2E2D2D] p-1 border-[#474747] border-2 rounded-full top-5 right-4 sm:hidden"
+          className="fixed text-white bg-[#2E2D2D] p-1 border-[#474747] border-2 rounded-full top-5 right-4 hover:scale-150 ease-in duration-200 sm:hidden"
           href="https://chopmoneyco.wordpress.com/"
         >
           <img className="w-6" src={WordpressIcon} alt="" />
         </a>
         <a
-          className="sm:flex sm:text-[#878787] sm:text-sm sm:items-center sm:border-[#474747] sm:border-2 sm:font-light sm:fixed sm:top-5 sm:right-14 sm:bg-[#2E2D2D] sm:py-2 sm:px-2 sm:rounded-full"
+          className="sm:flex sm:text-[#878787] sm:text-sm sm:items-center sm:border-[#474747] sm:border-2 sm:font-light sm:fixed sm:top-5 sm:right-14 sm:bg-[#2E2D2D] sm:py-2 sm:px-2 sm:rounded-full  sm:hover:scale-110 sm:ease-in sm:duration-200"
           href="https://chopmoneyco.wordpress.com/"
         >
           Tit bits!
-          <img className="hidden sm:w-6 sm:pl-1" src={WordpressIcon} alt="" />
+          <img
+            className="hidden sm:flex sm:w-6 sm:pl-1"
+            src={WordpressIcon}
+            alt=""
+          />
         </a>
       </div>
     </div>
