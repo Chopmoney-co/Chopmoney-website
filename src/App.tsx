@@ -15,7 +15,7 @@ function App() {
         <title>Chopmoney</title>
         <meta
           name="description"
-          content="chop money, budget, budgeting, money, finance, expenses, chopmoney, chopmoney app, sticking to your budget, stick to my budget, savings, financial planning, frugal, money management"
+          content="chop money, budget, budgeting, money, finance, expenses, chopmoney, chopmoney app, sticking to your budget, stick to my budget, savings, financial planning, frugal, money management, Stick to your budget in Ghana, Chop money app, Budgeting app ghana"
         />
         <link rel="canonical" href="http://chopmoney.co" />
       </Helmet>
