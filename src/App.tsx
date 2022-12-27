@@ -5,10 +5,11 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Storytime from "./pages/storytime";
 import Storytimeleft from "./pages/storytimeleft";
 import About from "./pages/about";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
+    <HelmetProvider>
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
@@ -40,6 +41,7 @@ function App() {
         />
       </Routes>
     </div>
+    </HelmetProvider>
   );
 }
 
