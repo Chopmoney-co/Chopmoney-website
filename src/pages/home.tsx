@@ -125,11 +125,11 @@ function Home() {
           <img className="w-6" src={WordpressIcon} alt="" />
         </a>
         <a
-          className="sm:flex sm:text-[#878787] sm:text-sm sm:items-center sm:border-[#474747] sm:border-2 sm:font-light sm:fixed sm:top-5 sm:right-14 sm:bg-[#2E2D2D] sm:py-2 sm:px-2 rounded-full"
+          className="sm:flex sm:text-[#878787] sm:text-sm sm:items-center sm:border-[#474747] sm:border-2 sm:font-light sm:fixed sm:top-5 sm:right-14 sm:bg-[#2E2D2D] sm:py-2 sm:px-2 sm:rounded-full"
           href="https://chopmoneyco.wordpress.com/"
         >
           Tit bits!
-          <img className="w-6 sm:pl-1" src={WordpressIcon} alt="" />
+          <img className="hidden sm:w-6 sm:pl-1" src={WordpressIcon} alt="" />
         </a>
       </div>
     </div>
