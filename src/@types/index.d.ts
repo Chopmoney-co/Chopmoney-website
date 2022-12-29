@@ -1,5 +1,17 @@
 declare module "*.svg" {
     import React = require("react");
+    import React from "react";
+import GoogleTag from './GoogleTag'; // import the GoogleTag component
+
+const App = () => (
+  <div className="App">
+    <GoogleTag /> {/* render the GoogleTag component */}
+    {/* rest of your code */}
+  </div>
+);
+
+export default App;
+
     export const ReactComponent: React.SFC<React.SVGProps<SVGSVGElement>>;
     const src: string;
     export default src;

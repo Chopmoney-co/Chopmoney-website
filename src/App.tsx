@@ -6,7 +6,7 @@ import Storytime from "./pages/storytime";
 import Storytimeleft from "./pages/storytimeleft";
 import About from "./pages/about";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-
+import GoogleTag from './GoogleTag'; //
 function App() {
   return (
     <HelmetProvider>
