@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Logo from "../assets/Lite.png";
+import Logo from "../assets/Lite2.png";
 import { FaGooglePlay } from "react-icons/fa";
 import { AiFillApple } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -14,6 +14,7 @@ import Fb from "../assets/Group 2227.svg";
 import Twitter from "../assets/Group 2228.svg";
 import Tiktok from "../assets/Group 2229.svg";
 import WordpressIcon from "../assets/wordpressicon.png";
+import GoogleTagManager from "../GoogleTag";
 
 function Home() {
   useEffect(() => {
@@ -27,12 +28,13 @@ function Home() {
       data-aos-easing="linear"
       data-aos-duration="400"
     >
+      <GoogleTagManager />
       <div>
         <div className="bg-[#0D0D0D] relative">
           <div className="bgr">
             <section className="h-[100vh] text-white flex items-center justify-center bgarrow">
               <div className="absolute inset-x-0 h-16 top-10 ">
-                <img className="mx-auto h-14" src={Logo} alt="" />
+                <img className="mx-auto h-28" src={Logo} alt="" />
               </div>
               <div className="container flex flex-col items-center px-4 py-16 mx-auto text-center md:py-32 md:px-10 lg:px-32 2xl:p-0 xl:max-w-4xl">
                 <h1 className="text-4xl font-bold leading-none sm:text-6xl 2xl:text-8xl">

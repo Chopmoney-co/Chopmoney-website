@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/about.css";
+import GoogleTagManager from "../GoogleTag";
 
 function About() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function About() {
       data-aos-easing="linear"
       data-aos-duration="400"
     >
+      <GoogleTagManager />
       <div className="bg-white relative">
         <section className="h-[100vh] text-[#0D0D0D] flex items-center justify-center">
           <div className="absolute inset-x-0 top-10 h-16 ">

@@ -3,11 +3,11 @@
     url(../assets/icon2.svg) left 200px top 100px no-repeat;
   background-size: 4rem;
 }
-.bgarrow {
+/* .bgarrow {
   background: url(../assets/icon4.svg) left 800px top 100px no-repeat;
   background-size: 2rem;
   animation: wiggle 2s linear infinite;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .bgr {
