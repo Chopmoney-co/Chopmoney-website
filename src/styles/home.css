@@ -3,11 +3,6 @@
     url(../assets/icon2.svg) left 200px top 100px no-repeat;
   background-size: 4rem;
 }
-/* .bgarrow {
-  background: url(../assets/icon4.svg) left 800px top 100px no-repeat;
-  background-size: 2rem;
-  animation: wiggle 2s linear infinite;
-} */
 
 @media only screen and (max-width: 1024px) {
   .bgr {
@@ -19,8 +14,6 @@
     background-size: none;
   }
 }
-
-
 
 .fab {
   background-color: transparent;
@@ -83,14 +76,7 @@
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  /* background-color: blue; */
-  /* transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); */
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
 }
-
-/* .minifab:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-} */
 
 .minifabIcon {
   height: 24px;
@@ -98,28 +84,8 @@
   margin-top: 12px;
 }
 
-/* .op1 {
-  background-color: #2f82fc;
-}
-
-.op2 {
-  background-color: #0f9d58;
-}
-
-.op3 {
-  background-color: #fb0;
-}
-
-.op4 {
-  background-color: #dd5145;
-}
-
-.op5 {
-  background-color: #673ab7;
-} */
 @media only screen and (max-width: 600px) {
-  .fab{
+  .fab {
     right: 10px;
   }
- 
 }
