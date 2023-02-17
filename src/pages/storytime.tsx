@@ -25,9 +25,9 @@ function Storytime() {
       <GoogleTagManager/>
       <div className="bg-[#ECEC08] relative">
         <section className="h-[100vh] text-[#0D0D0D] flex items-center justify-center">
-          <div className="absolute inset-x-0 top-10 h-16 ">
+          <a href="/" className="absolute inset-x-0 top-10 h-16 ">
             <img className="mx-auto h-14 logoblack" src={Logoblack} alt="" />
-          </div>
+          </a>
           <div className="absolute z-10 top-auto bottom-0 right-4 sm:inset-y-auto w-20 arrowright">
             <Link
               to="/about"
