@@ -25,6 +25,8 @@ export default function PlaystoreModal() {
                   <Player
                     src="https://assets4.lottiefiles.com/packages/lf20_0skurerf.json"
                     className="player"
+                    loop
+                    autoplay
                   />
                   <p className="my-4 text-white text-lg leading-relaxed">
                     Coming Soon ....
