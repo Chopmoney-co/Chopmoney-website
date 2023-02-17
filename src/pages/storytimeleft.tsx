@@ -9,8 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/storytime.css";
 import GoogleTagManager from "../GoogleTag";
-import AppstoreModal from "../components/AppstoreModal";
-import PlaystoreModal from "../components/PlaystoreModal";
 
 function Storytimeleft() {
   useEffect(() => {
@@ -68,16 +66,14 @@ function Storytimeleft() {
               overspending.
             </p>
             <div className="flex flex-row flex-wrap justify-center">
-              {/* <button className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#0D0D0D] text-[#ECEC08] hover:scale-110 duration-300 transform">
+              <button className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#0D0D0D] text-[#ECEC08] hover:scale-110 duration-300 transform">
                 Apple Store
                 <AiFillApple className="text-xl inline m-auto ml-4" />
-              </button> */}
-              <AppstoreModal/>
-              {/* <button className="px-8 py-4 m-2 text-xs font-semibold border border-[#0D0D0D] rounded text-[#0D0D0D] border-gray-700 hover:scale-110 duration-300 transform">
+              </button>
+              <button className="px-8 py-4 m-2 text-xs font-semibold border border-[#0D0D0D] rounded text-[#0D0D0D] border-gray-700 hover:scale-110 duration-300 transform">
                 Play Store
                 <FaGooglePlay className="text-sm inline m-auto ml-4" />
-              </button> */}
-              <PlaystoreModal/>
+              </button>
             </div>
             <div className="absolute inset-x-0 bottom-0  h-16 sm:h-20 arrowup">
               <a
