@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Logo from "../assets/Lite2.png";
-import { FaGooglePlay } from "react-icons/fa";
-import { AiFillApple } from "react-icons/ai";
+
 import { Link } from "react-router-dom";
 import { BsArrowDown } from "react-icons/bs";
 import AOS from "aos";
@@ -15,6 +14,8 @@ import Twitter from "../assets/Group 2228.svg";
 import Tiktok from "../assets/Group 2229.svg";
 import WordpressIcon from "../assets/wordpressicon.png";
 import GoogleTagManager from "../GoogleTag";
+import PlaystoreModal from "../components/PlaystoreModal";
+import AppstoreModal from "../components/AppstoreModal";
 
 function Home() {
   useEffect(() => {
@@ -46,14 +47,8 @@ function Home() {
                   makes it to Friday!
                 </p>
                 <div className="flex flex-col flex-wrap justify-center">
-                  <button className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#ECEC08] text-gray-900 hover:scale-110 duration-300 transform">
-                    Apple Store
-                    <AiFillApple className="inline m-auto ml-4 text-xl" />
-                  </button>
-                  <button className="px-8 py-4 m-2 text-xs font-semibold border border-[#ECEC08] rounded text-[#ECEC08] border-gray-700 hover:scale-110 duration-300 transform">
-                    Play Store
-                    <FaGooglePlay className="inline m-auto ml-4 text-sm" />
-                  </button>
+                  <AppstoreModal />
+                  <PlaystoreModal />
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-16 sm:h-20">
                   <Link
