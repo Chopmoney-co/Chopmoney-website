@@ -7,6 +7,7 @@ import Storytimeleft from "./pages/storytimeleft";
 import About from "./pages/about";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./GoogleTag";
+import TermsC from "./pages/TermsC";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="storytime" element={<Storytime />} />
             <Route path="storytime2" element={<Storytimeleft />} />
             <Route path="about" element={<About />} />
+            <Route path="tc" element={<TermsC />} />
           </Route>
 
           {/* Not found */}
