@@ -20,7 +20,7 @@ function TermsC() {
             <h2 className="mb-2 text-xl font-semibold leading-snug tracking-tight text-gray-800 md:text-2xl">
               Collection of Personal Information:
             </h2>
-            <p className="mb-4 text-base font-normal text-gray-600">
+            <p className="mb-4 text-base font-normal justify-center text-gray-600">
               We collect personal information that you voluntarily provide to us
               when you create an account, such as your name, email address,
               phone number, and date of birth. We also collect financial
