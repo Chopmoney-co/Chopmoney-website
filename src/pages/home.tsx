@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Logo from "../assets/Lite2.webp";
+import Logo from "../assets/Lite2.png";
 
 import { Link } from "react-router-dom";
 import { BsArrowDown } from "react-icons/bs";

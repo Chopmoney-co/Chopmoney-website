@@ -9,7 +9,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./GoogleTag";
 import TermsC from "./pages/TermsC";
 
-
 function App() {
   return (
     <HelmetProvider>
