@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./App.css";
 import Home from "./pages/home";
 import { Navigate, Route, Routes } from "react-router-dom";
@@ -8,8 +8,14 @@ import About from "./pages/about";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./GoogleTag";
 import TermsC from "./pages/TermsC";
+import OneSignal from 'react-onesignal';
 
 function App() {
+  useEffect(() => {
+    OneSignal.init({
+      appId: "Y2YzN2VjMjMtNzg1Yi00MjUwLTlmMzYtOGVkYmM5ZDQzOTM0"
+    });
+  }, []);
   return (
     <HelmetProvider>
       <div className="App">
