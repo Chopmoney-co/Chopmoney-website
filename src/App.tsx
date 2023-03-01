@@ -13,7 +13,7 @@ import OneSignal from 'react-onesignal';
 function App() {
   useEffect(() => {
     OneSignal.init({
-      appId: "Y2YzN2VjMjMtNzg1Yi00MjUwLTlmMzYtOGVkYmM5ZDQzOTM0"
+      appId: "fb6d271d-108c-45b2-832e-35e1155d7f3e"
     });
   }, []);
   return (
