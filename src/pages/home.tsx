@@ -14,8 +14,8 @@ import Twitter from "../assets/Group 2228.svg";
 import Tiktok from "../assets/Group 2229.svg";
 import WordpressIcon from "../assets/wordpressicon.png";
 import GoogleTagManager from "../GoogleTag";
-import PlaystoreModal from "../components/PlaystoreModal";
 import AppstoreModal from "../components/AppstoreModal";
+import { FaGooglePlay } from "react-icons/fa";
 
 function Home() {
   useEffect(() => {
@@ -44,11 +44,18 @@ function Home() {
                 <p className="mt-6 mb-6 text-sm text-white 2xl:text-base">
                   Enjoy life while sticking to your budget with Chopmoney.
                   Whether you’re a Big Spender or an Economic Guru, your money
-                  makes it to moon die!
+                  makes it to the month's end!
                 </p>
                 <div className="flex flex-col flex-wrap justify-center">
                   <AppstoreModal />
-                  <PlaystoreModal />
+                  <a href="https://play.google.com/store/apps/details?id=co.chopmoney.app"
+        className="px-8 py-4 m-2 text-xs font-semibold border border-[#ECEC08] rounded text-[#ECEC08] border-gray-700 hover:scale-110 duration-300 transform"
+        type="button"
+      >
+        Play Store
+        <FaGooglePlay className="inline m-auto ml-4 text-sm" />
+      </a>
+                  {/* <PlaystoreModal /> */}
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-16 sm:h-20">
                   <Link
