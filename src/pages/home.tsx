@@ -44,7 +44,7 @@ function Home() {
                 <p className="mt-6 mb-6 text-sm text-white 2xl:text-base">
                   Enjoy life while sticking to your budget with Chopmoney.
                   Whether you’re a Big Spender or an Economic Guru, your money
-                  makes it to Friday!
+                  makes it to moon die!
                 </p>
                 <div className="flex flex-col flex-wrap justify-center">
                   <AppstoreModal />
