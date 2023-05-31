@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Home from "./pages/home";
 import { Navigate, Route, Routes } from "react-router-dom";
@@ -8,12 +8,12 @@ import About from "./pages/about";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./GoogleTag";
 import TermsC from "./pages/TermsC";
-import OneSignal from 'react-onesignal';
+import OneSignal from "react-onesignal";
 
 function App() {
   useEffect(() => {
     OneSignal.init({
-      appId: "fb6d271d-108c-45b2-832e-35e1155d7f3e"
+      appId: "fb6d271d-108c-45b2-832e-35e1155d7f3e",
     });
   }, []);
   return (

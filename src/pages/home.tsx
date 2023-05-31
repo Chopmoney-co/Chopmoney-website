@@ -48,13 +48,14 @@ function Home() {
                 </p>
                 <div className="flex flex-col flex-wrap justify-center">
                   <AppstoreModal />
-                  <a href="https://play.google.com/store/apps/details?id=co.chopmoney.app"
-        className="px-8 py-4 m-2 text-xs font-semibold border border-[#ECEC08] rounded text-[#ECEC08] border-gray-700 hover:scale-110 duration-300 transform"
-        type="button"
-      >
-        Play Store
-        <FaGooglePlay className="inline m-auto ml-4 text-sm" />
-      </a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=co.chopmoney.app"
+                    className="px-8 py-4 m-2 text-xs font-semibold border border-[#ECEC08] rounded text-[#ECEC08] border-gray-700 hover:scale-110 duration-300 transform"
+                    type="button"
+                  >
+                    Play Store
+                    <FaGooglePlay className="inline m-auto ml-4 text-sm" />
+                  </a>
                   {/* <PlaystoreModal /> */}
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-16 sm:h-20">
