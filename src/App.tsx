@@ -10,7 +10,7 @@ import GoogleTagManager from "./GoogleTag";
 import TermsC from "./pages/TermsC";
 import OneSignal from "react-onesignal";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsandConditions from "./pages/TermsandConditions";
+import TermsofUse from "./pages/TermsofUse";
 function App() {
   useEffect(() => {
     OneSignal.init({
@@ -40,7 +40,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="tc" element={<TermsC />} />
             <Route path="pp" element={<PrivacyPolicy/>} />
-            <Route path="otc" element={<TermsandConditions/>} />
+            <Route path="tu" element={<TermsofUse/>} />
           </Route>
 
           {/* Not found */}
