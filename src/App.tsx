@@ -9,7 +9,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import GoogleTagManager from "./GoogleTag";
 import TermsC from "./pages/TermsC";
 import OneSignal from "react-onesignal";
-
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsandConditions from "./pages/TermsandConditions";
 function App() {
   useEffect(() => {
     OneSignal.init({
@@ -38,6 +39,8 @@ function App() {
             <Route path="storytime2" element={<Storytimeleft />} />
             <Route path="about" element={<About />} />
             <Route path="tc" element={<TermsC />} />
+            <Route path="pp" element={<PrivacyPolicy/>} />
+            <Route path="otc" element={<TermsandConditions/>} />
           </Route>
 
           {/* Not found */}
