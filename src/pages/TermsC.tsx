@@ -21,13 +21,10 @@ function TermsC() {
               Collection of Personal Information:
             </h2>
             <p className="mb-4 text-base font-normal text-gray-600">
-              We collect personal information that you voluntarily provide to us
-              when you create an account, such as your name, email address,
-              phone number, and date of birth. We also collect financial
-              information, such as bank account details, transaction
-              information, and credit/debit card information, when you use our
-              app to make transactions. In addition, we may collect information
-              about your location, device type, and browsing history when you
+            We collect personal information that you voluntarily provide to us
+              when you create an account, such as your name, email address, and
+              phone number. In addition, we may collect information
+              about your location, and device type when you
               use our app.
             </p>
           </div>
