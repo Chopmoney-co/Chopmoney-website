@@ -59,7 +59,7 @@ function Home() {
                   {/* <PlaystoreModal /> */}
                 </div>
                 <Link
-                  className="text-[#ECEC08] z-10 text-sm sm:text-base absolute left-[18px] md:left-[60px] lg:left-[200px] bottom-0 h-16 sm:h-20"
+                  className="text-[#ECEC08] z-10 text-sm sm:text-base absolute left-[18px] md:left-[60px] lg:left-[200px] bottom-[70px]"
                   to="/support"
                 >
                   Support
