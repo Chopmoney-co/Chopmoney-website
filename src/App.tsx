@@ -11,6 +11,7 @@ import TermsC from "./pages/TermsC";
 import OneSignal from "react-onesignal";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsofUse from "./pages/TermsofUse";
+import Support from "./pages/Support";
 function App() {
   useEffect(() => {
     OneSignal.init({
@@ -41,6 +42,7 @@ function App() {
             <Route path="tc" element={<TermsC />} />
             <Route path="pp" element={<PrivacyPolicy/>} />
             <Route path="tu" element={<TermsofUse/>} />
+            <Route path="support" element={<Support/>} />
           </Route>
 
           {/* Not found */}
