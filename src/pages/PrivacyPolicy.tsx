@@ -5,7 +5,9 @@ function TermsC() {
   return (
     <div>
       <section className="w-full px-4 py-24 mx-auto max-w-7xl md:w-3/4 lg:w-2/4">
-      <img className="mb-16" src={Logo} alt="" />
+        <a href="/">
+          <img className="mb-16" src={Logo} alt="" />
+        </a>
         <div className="flex flex-col ">
           <div>
             <h1 className="mb-2 text-xl font-bold leading-snug tracking-tight text-gray-800 md:text-5xl">
@@ -25,9 +27,8 @@ function TermsC() {
             <p className="mb-4 text-base font-normal text-gray-600">
               We collect personal information that you voluntarily provide to us
               when you create an account, such as your name, email address, and
-              phone number. In addition, we may collect information
-              about your location, and device type when you
-              use our app.
+              phone number. In addition, we may collect information about your
+              location, and device type when you use our app.
             </p>
           </div>
           <div>
