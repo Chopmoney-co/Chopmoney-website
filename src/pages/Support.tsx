@@ -10,7 +10,7 @@ function Support() {
         </a>
         <div className="flex flex-col ">
           <div>
-            <h1 className="mb-2 text-xl font-bold text-center leading-snug text-center tracking-tight text-black md:text-5xl">
+            <h1 className="mb-2 text-3xl font-bold text-center leading-snug text-center tracking-tight text-black md:text-5xl">
               Support
             </h1>
             <p className="my-8 text-base font-normal text-center text-black">
