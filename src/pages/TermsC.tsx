@@ -1,9 +1,11 @@
 import React from "react";
+import Logo from "../assets/Group 2166.png";
 
 function TermsC() {
   return (
     <div>
       <section className="w-full px-4 py-24 mx-auto max-w-7xl md:w-3/4 lg:w-2/4">
+      <img className="mb-16" src={Logo} alt="" />
         <div className="flex flex-col ">
           <div>
             <h1 className="mb-2 text-xl font-bold leading-snug tracking-tight text-gray-800 md:text-5xl">

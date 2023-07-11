@@ -37,15 +37,14 @@ function Support() {
             >
               admin@chopmoney.co
             </a>
-            <p className="mt-2 text-base font-normal text-center text-gray-600">
-              WhatsApp chat:{" "}
+          
               <a
-                className="underline"
+                className=" mt-2 bg-[#ECEC08] w-48 rounded-xl mx-auto p-4 text-base font-normal text-center text-gray-700"
                 href="https://wa.me/message/NRDZZQVYGWMCL1"
               >
-                https://wa.me/message/NRDZZQVYGWMCL1
+              Whatsapp Chat
               </a>
-            </p>
+            
           </div>
         </div>
       </section>
