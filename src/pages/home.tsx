@@ -14,8 +14,8 @@ import Twitter from "../assets/Group 2228.svg";
 import Tiktok from "../assets/Group 2229.svg";
 import WordpressIcon from "../assets/wordpressicon.png";
 import GoogleTagManager from "../GoogleTag";
-import AppstoreModal from "../components/AppstoreModal";
 import { FaGooglePlay } from "react-icons/fa";
+import { AiFillApple } from "react-icons/ai";
 
 function Home() {
   useEffect(() => {
@@ -47,7 +47,14 @@ function Home() {
                   makes it to the month's end!
                 </p>
                 <div className="flex flex-col flex-wrap justify-center">
-                  <AppstoreModal />
+                  <a
+                    href="https://apps.apple.com/app/chopmoney/id6444722445"
+                    className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#ECEC08] text-gray-900 hover:scale-110 duration-300 transform"
+                    type="button"
+                  >
+                    Apple Store
+                    <AiFillApple className="inline m-auto ml-4 text-xl" />
+                  </a>
                   <a
                     href="https://play.google.com/store/apps/details?id=co.chopmoney.app"
                     className="px-8 py-4 m-2 text-xs font-semibold border border-[#ECEC08] rounded text-[#ECEC08] border-gray-700 hover:scale-110 duration-300 transform"

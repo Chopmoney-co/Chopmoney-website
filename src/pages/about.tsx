@@ -63,10 +63,10 @@ function About() {
               that led us to Chopmoney.
             </p>
             <div className="flex flex-row flex-wrap justify-center">
-              <button className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#0D0D0D] text-white hover:scale-110 duration-300 transform">
+              <a href="https://apps.apple.com/app/chopmoney/id6444722445" className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#0D0D0D] text-white hover:scale-110 duration-300 transform">
                 Apple Store
                 <AiFillApple className="text-xl inline m-auto ml-4" />
-              </button>
+              </a>
               <a
                 href="https://play.google.com/store/apps/details?id=co.chopmoney.app"
                 className="px-8 py-4 m-2 text-xs font-semibold border border-[#0D0D0D] rounded text-[#0D0D0D] border-gray-700 hover:scale-110 duration-300 transform"
