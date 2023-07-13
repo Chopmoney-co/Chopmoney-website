@@ -38,7 +38,7 @@ function Home() {
                 <img className="mx-auto h-28" src={Logo} alt="" />
               </a>
               <div className="container flex flex-col items-center px-4 py-16 mx-auto text-center md:py-32 md:px-10 lg:px-32 2xl:p-0 xl:max-w-4xl">
-                <h1 className="text-4xl font-bold leading-none sm:text-6xl 2xl:text-8xl">
+                <h1 className="text-5xl font-bold leading-none sm:text-6xl 2xl:text-8xl">
                   Pay yourself anytime, any day!
                 </h1>
                 <p className="mt-6 mb-6 text-sm text-white 2xl:text-base">
@@ -46,7 +46,7 @@ function Home() {
                   Whether you’re a Big Spender or an Economic Guru, your money
                   makes it to the month's end!
                 </p>
-                <div className="flex flex-col sm:flex-row flex-wrap justify-center">
+                <div className="flex flex-row flex-wrap justify-center">
                   <a
                     href="https://apps.apple.com/app/chopmoney/id6444722445"
                     className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#ECEC08] text-gray-900 hover:scale-110 duration-300 transform"
