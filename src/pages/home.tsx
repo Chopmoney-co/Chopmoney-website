@@ -46,7 +46,7 @@ function Home() {
                   Whether you’re a Big Spender or an Economic Guru, your money
                   makes it to the month's end!
                 </p>
-                <div className="flex flex-col flex-wrap justify-center">
+                <div className="flex flex-col sm:flex-row flex-wrap justify-center">
                   <a
                     href="https://apps.apple.com/app/chopmoney/id6444722445"
                     className="px-8 py-4 m-2 text-xs font-semibold rounded bg-[#ECEC08] text-gray-900 hover:scale-110 duration-300 transform"
@@ -66,7 +66,7 @@ function Home() {
                   {/* <PlaystoreModal /> */}
                 </div>
                 <Link
-                  className="text-[#ECEC08] font-semibold z-10 border-2 border-[#ECEC08] p-2 hover:bg-[#ECEC08] hover:text-black rounded-full text-xs sm:text-base absolute left-[18px] md:left-[60px] sm:bottom-[70px] sm:top-[auto] lg:left-[200px] top-[20px]"
+                  className="text-[#878787] font-normal z-10 border-2 border-[#474747] p-2 bg-[#2E2D2D] rounded-full text-xs sm:text-sm absolute left-[18px] md:left-[60px] sm:bottom-[70px] sm:top-[auto] lg:left-[200px] top-[20px] transition hover:scale-110 ease-in duration-200"
                   to="/support"
                 >
                   Support
